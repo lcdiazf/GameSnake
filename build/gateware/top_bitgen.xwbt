@@ -1,0 +1,7 @@
+INFILE=/media/luis/OS/Users/ASUS/Documents/UniversidadNacional/2018-III/ElectronicaDigitalII/Game1/build/gateware/top.ncd
+OUTFILE=/media/luis/OS/Users/ASUS/Documents/UniversidadNacional/2018-III/ElectronicaDigitalII/Game1/build/gateware/top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/media/luis/OS/Users/ASUS/Documents/UniversidadNacional/2018-III/ElectronicaDigitalII/Game1/build/gateware
+LICENSE=WebPack
+USER_INFO=211380202_0_0_930
