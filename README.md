@@ -9,3 +9,5 @@ Sebastian Camilo Cortés Salazar
 El System On Chip sintetizado consta de un LM32 con 5 periféricos.
 
 ![GameSnake SOC](docs/SOC.png)
+
+prueba para ver si ma monda esta afuincioan
