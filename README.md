@@ -27,3 +27,6 @@ GameSnake cuenta con las siguientes especificaciones
 * Frecuencia del reloj: 32MHz.
 * Memoria ROM integrada de 8Kbits.
 * Memoria RAM de 8KB.
+
+
+hol hola holafkfkedfksñvijs
