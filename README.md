@@ -34,8 +34,6 @@ El perifrico diseñado enteramente en este proyecto fue un controlador del chip 
 * Diagrama de tiempos del chip.
 Con lo anterior se deja una base para realizar el diseño de 
 
-
-#### Diagrama de tiempos
 ## Software
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
 * Software périfericos
