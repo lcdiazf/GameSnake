@@ -32,7 +32,42 @@ El perifrico diseñado enteramente en este proyecto fue un controlador del chip 
 
 * Registros de control y datos de comandos del chip ILI9341.
 * Diagrama de tiempos del chip.
-Con lo anterior se deja una base para realizar el diseño de 
+
+Con lo anterior se deja una base para realizar el diseño con descripción de hardware del controlador del chip.
+
+La shield del chip tiene los siguientes pines:
+* DB[7:0]
+* RS
+* WR
+* RST
+* CS
+* RD
+
+Como se trata de un solo esclavo (la pantalla LCD) que manejará el periférico, el pin CS se deja permanentemente en nivel bajo; de la misma manera el periférico solo escribirá datos en el esclavo, mas no leerá registros de este, por lo que también el pin RD (que habilita lectura/escritura de los registros del chip) se dejará constantemente en nivel bajo.
+
+Aclarado lo anterior, se muestra como sigue el diagrama de tiempos que debe tener el periférico en su salida para la correcta escritura de datos en los registros del chip
+
+(adjuntar diagrama de tiempos)
+
+Tener en cuenta los tiempos mínimos y máximos establecidos en la hoja de datos del chip ILI9341.
+
+El periférico diseñado realiza la tarea descrita en el diagrama de tiempos; hace dos tareas diferenciadas:
+* Escribir un dato en la salida a modo de instrucción (seleccionar una dirección de registro, RS nivel bajo).
+* escribir un dato en la salida a modo de argumento (guardar un dato en el registro seleccionado, RS nivel alto).
+
+El módulo está diseñado con la herramienta LiteX mediante el uso del submódulo FSM (ver documentación de creación de máquinas de estado finitas en litex).
+
+El mapa de memoria se relaciona a continuación.
+
+(mapa de memoria :v)
+
+Las señales de control START y BUSY respectivamente da inicio al ciclo de escritura y asegura que no se realice un ciclo mientras se est realizando otro en ese momento. Para efectos de generalidad, se deja como registro el valor que se escribe en el pin CS, para casos en los que se necesite manejar más de una pantalla. Queda pendiente realizar la generalidad para el caso en que se necesite leer datos de los registros del chip.
+
+(diagrama de estados del periférico)
+
+(diagrama de tiempo simulado)
+
+
 
 ## Software
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
