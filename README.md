@@ -9,7 +9,7 @@ Classic snake game
 
 - Sebastian Camilo Cortés Salazar
 
-@sscortesa :+1: This is my emoji :cat:
+@sscortesa :+1: This is my emoji ::v:
 
 ## El proyecto
 El GameSnake es una consola de un videojuego pensada como proyecto final de la asignatura Electrónica Digital II. Con un diseño gráfico basado en la consola Nintengo GameBoy,el proyecto consta de un prototipo de consola en el que puede jugar el famoso videojuego del celular Nokia 1100 Snake. Los datos gráficos del videojuego que se denominarán Tiles son leídos directamente desde una tarjeta SD de 2Gb conectada al dispositivo. El entorno gráfico escogido para el videojuego fue un fondo de color verde y obstáculos, entorno de puntaje y la serpiente de colores a base de escalas de grises. Cuenta con cinco botones; cuatro de estos son las direcciones del Snake y el último es para pausar el videojuego o para reiniciarlo en caso de pérdida.
@@ -79,11 +79,11 @@ Las señales de control START y BUSY respectivamente da inicio al ciclo de escri
 
 This site was built using [GameGirl Pages](https://github.com/luisajojoa/GameGirl).
 
-## Software
-
 This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.html).
 
 This site was built using [enjoy-digital pages](https://github.com/enjoy-digital/fpga_101/).
+
+## Software
 
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
 * Software périfericos
