@@ -29,4 +29,6 @@ GameSnake cuenta con las siguientes especificaciones
 * Memoria RAM de 8KB.
 
 ## Hardware
-hol hola holafkfkedfksñvijs
+=======
+## Software
+>>>>>>
