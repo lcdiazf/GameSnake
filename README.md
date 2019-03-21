@@ -14,11 +14,6 @@ La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo
 
 ![GameSnake SOC](docs/SOC.png)
 
-prueba para ver si ma monda esta afuincioan
-Commit para comprobar 
-=======
-
-
 ## Especificaciones
 
 GameSnake cuenta con las siguientes especificaciones 
@@ -39,6 +34,6 @@ Con lo anterior se deja una base para realizar el diseño de
 
 ## Software
 En esta sección se describe el funcionamiento del firmware que controla los periféricos y software que trate la lógica del juego, además del la interfaz de usuario.
-*firmware périfericos
-*softeware control
-*software UI (User interface)
+- firmware périfericos
+- softeware control
+- software UI (User interface)
