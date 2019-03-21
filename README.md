@@ -15,7 +15,6 @@ La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo
 ![GameSnake SOC](docs/SOC.png)
 
 ## Especificaciones
-
 GameSnake cuenta con las siguientes especificaciones 
 
 * Pantalla a color RGB LCD de resolución 240x320. Se utilizaron solamente 4 colores diferentes y la resolución final del videojugego fue de 240x240.
@@ -26,15 +25,35 @@ GameSnake cuenta con las siguientes especificaciones
 * Memoria ROM integrada de 8Kbits.
 * Memoria RAM de 8KB.
 
+//Le hice cambios pequeños para establecer un formato de secciones
 ## Hardware
-El perifrico diseñado enteramente en este proyecto fue un controlador del chip de la pantalla ILI9341. Para realizar este diseño se tuvieron en cuenta dos cosas
+Los periféricos diseñados en este proyecto fueron, un controlador del chip de la pantalla ILI9341,
+
 * Registros de control y datos de comandos del chip ILI9341.
 * Diagrama de tiempos del chip.
-Con lo anterior se deja una base para realizar el diseño de 
+Con lo anterior se deja una base para realizar el diseño de la plataforma Hardware/Software
+
+### ILI9341
+Para realizar este diseño se tuvieron en cuenta dos cosas:
+
+#### Registros de control
+//Yo cambiaria el orden de estos dos
+
+#### Diagrama de tiempos
 
 ## Software
-En esta sección se describe el funcionamiento del firmware que controla los periféricos y software que trate la lógica del juego, además del la interfaz de usuario.
+En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
+* Software périfericos
 
-- firmware périfericos
-- softeware control
-- software UI (User interface)
+## Firmware
+Adelante se descirbe la lógica que controla el juego, además aqeulla que controla la interfaz de usuario y finalmente se describe la función que ubica a la Snake en su posición inicial.
+
+* Control (Control unit)
+* UI (User interface)
+* Idle (Initial state)
+
+### Control
+
+### User interface
+
+### Idle State
