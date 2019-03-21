@@ -75,8 +75,16 @@ Las señales de control START y BUSY respectivamente da inicio al ciclo de escri
 (diagrama de tiempo simulado)
 
 
+:+1: Inicio a construir la plataforma entre SD Software y Hardware :shipit:
+
+This site was built using [GameGirl Pages](https://github.com/luisajojoa/GameGirl).
 
 ## Software
+
+This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.html).
+
+This site was built using [enjoy-digital pages](https://github.com/enjoy-digital/fpga_101/).
+
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
 * Software périfericos
 
