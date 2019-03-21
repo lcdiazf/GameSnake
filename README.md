@@ -32,5 +32,9 @@ GameSnake cuenta con las siguientes especificaciones
 * Memoria RAM de 8KB.
 
 ## Hardware
-=======
+
 ## Software
+En esta sección se describe el funcionamiento del firmware que controla los periféricos y software que trate la lógica del juego, además del la interfaz de usuario.
+*firmware périfericos
+*softeware control
+*software UI (User interface)
