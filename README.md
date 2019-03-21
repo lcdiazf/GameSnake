@@ -18,7 +18,7 @@ A nivel técnico el proyecto se compone de una implementación de System On Chip
 
 La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo con el maestro. Para controlar la pantalla se diseñó desde hardware el periférico correspondiente. Para la lectura de los datos de la tarjeta SD se realiza la comunicación mediate protocolo SPI. Los botones del videojuego se manejan mendiante entradas de propósito general (GPI) pero a través de interrupciones. Finalmente para la comunicación de la tarjeta se implementa el perifperico UART. 
 
-![GameSnake SOC](docs/SOC.png)
+![GameSnake SOC](docs/MemoryMap/LM32/SOC.png)
 
 ## Especificaciones
 GameSnake cuenta con las siguientes especificaciones 
@@ -47,6 +47,8 @@ La shield del chip tiene los siguientes pines:
 * RST
 * CS
 * RD
+
+![ILI9341 memory map](docs/MemoryMap/LM32/ILI9341/ILI9341map.png)
 
 Como se trata de un solo esclavo (la pantalla LCD) que manejará el periférico, el pin CS se deja permanentemente en nivel bajo; de la misma manera el periférico solo escribirá datos en el esclavo, mas no leerá registros de este, por lo que también el pin RD (que habilita lectura/escritura de los registros del chip) se dejará constantemente en nivel bajo.
 
