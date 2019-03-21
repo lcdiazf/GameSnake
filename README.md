@@ -20,10 +20,10 @@ La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo
 
 GameSnake cuenta con las siguientes especificaciones 
 
--> Pantalla a color RGB LCD de resolución 240x320. Se utilizaron solamente 4 colores diferentes y la resolución final del videojugego fue de 240x240.
--> Lector de tarjeta SD de 2GB. Los datos gráficos del videojuego están almacenados en la tarjeta y mediante el lector son graficadas en tiempo real en la pantalla.
--> 5 pulsadores de movimiento de la serpiente y de pausa/reinicio. Las ejecuciones de los botones se realizan mediante interrupciones del procesador.
--> Procesador de 32 bits (LM32).
--> Frecuencia del reloj: 32MHz.
--> Memoria ROM integrada de 8Kbits.
--> Memoria RAM de 8KB.
+* Pantalla a color RGB LCD de resolución 240x320. Se utilizaron solamente 4 colores diferentes y la resolución final del videojugego fue de 240x240.
+* Lector de tarjeta SD de 2GB. Los datos gráficos del videojuego están almacenados en la tarjeta y mediante el lector son graficadas en tiempo real en la pantalla.
+* 5 pulsadores de movimiento de la serpiente y de pausa/reinicio. Las ejecuciones de los botones se realizan mediante interrupciones del procesador.
+* Procesador de 32 bits (LM32).
+* Frecuencia del reloj: 32MHz.
+* Memoria ROM integrada de 8Kbits.
+* Memoria RAM de 8KB.
