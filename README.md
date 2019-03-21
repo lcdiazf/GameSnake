@@ -5,7 +5,7 @@ Classic snake game
 
 - Luis Carlos Díaz Fajardo
 
-@lcdiazf :+1: This is my emoji :shiptip:
+@lcdiazf :+1: This is my emoji :shipit:
 
 - Sebastian Camilo Cortés Salazar
 
