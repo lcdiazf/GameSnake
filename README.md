@@ -28,12 +28,13 @@ GameSnake cuenta con las siguientes especificaciones
 
 ## Hardware
 El perifrico diseñado enteramente en este proyecto fue un controlador del chip de la pantalla ILI9341. Para realizar este diseño se tuvieron en cuenta dos cosas
-*Registros de control y datos de comandos del chip ILI9341.
-*Diagrama de tiempos del chip.
+* Registros de control y datos de comandos del chip ILI9341.
+* Diagrama de tiempos del chip.
 Con lo anterior se deja una base para realizar el diseño de 
 
 ## Software
 En esta sección se describe el funcionamiento del firmware que controla los periféricos y software que trate la lógica del juego, además del la interfaz de usuario.
+
 - firmware périfericos
 - softeware control
 - software UI (User interface)
