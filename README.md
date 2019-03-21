@@ -14,6 +14,9 @@ La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo
 
 ![GameSnake SOC](docs/SOC.png)
 
+prueba para ver si ma monda esta afuincioan
+Commit para comprobar 
+=======
 
 
 ## Especificaciones
@@ -31,4 +34,3 @@ GameSnake cuenta con las siguientes especificaciones
 ## Hardware
 =======
 ## Software
->>>>>>
