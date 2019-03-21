@@ -26,21 +26,16 @@ GameSnake cuenta con las siguientes especificaciones
 * Memoria ROM integrada de 8Kbits.
 * Memoria RAM de 8KB.
 
-@lcdiaz :-1: Le hice cambios pequeños para establecer un formato de secciones :shipit:
+
 ## Hardware
-Los periféricos diseñados en este proyecto fueron, un controlador del chip de la pantalla ILI9341,
+El perifrico diseñado enteramente en este proyecto fue un controlador del chip de la pantalla ILI9341. Para realizar este diseño se tuvieron en cuenta dos cosas
 
 * Registros de control y datos de comandos del chip ILI9341.
 * Diagrama de tiempos del chip.
-Con lo anterior se deja una base para realizar el diseño de la plataforma Hardware/Software
+Con lo anterior se deja una base para realizar el diseño de 
 
-### ILI9341
-Para realizar este diseño se tuvieron en cuenta dos cosas:
 
-#### Registros de control
-@lcdiazf :-1: Yo cambiaria el orden de estos dos :shipit:
 #### Diagrama de tiempos
-
 ## Software
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
 * Software périfericos
