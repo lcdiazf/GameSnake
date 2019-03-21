@@ -4,7 +4,12 @@ Classic snake game
 ### Contributors
 
 - Luis Carlos Díaz Fajardo
+
+@lcdiazf :+1: This is my emoji :shiptip:
+
 - Sebastian Camilo Cortés Salazar
+
+@sscortesa :+1: This is my emoji :cat:
 
 ## El proyecto
 El GameSnake es una consola de un videojuego pensada como proyecto final de la asignatura Electrónica Digital II. Con un diseño gráfico basado en la consola Nintengo GameBoy,el proyecto consta de un prototipo de consola en el que puede jugar el famoso videojuego del celular Nokia 1100 Snake. Los datos gráficos del videojuego que se denominarán Tiles son leídos directamente desde una tarjeta SD de 2Gb conectada al dispositivo. El entorno gráfico escogido para el videojuego fue un fondo de color verde y obstáculos, entorno de puntaje y la serpiente de colores a base de escalas de grises. Cuenta con cinco botones; cuatro de estos son las direcciones del Snake y el último es para pausar el videojuego o para reiniciarlo en caso de pérdida.
