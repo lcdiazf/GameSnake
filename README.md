@@ -48,13 +48,12 @@ La shield del chip tiene los siguientes pines:
 * CS
 * RD
 
-![ILI9341 memory map](docs/MemoryMap/LM32/ILI9341/ILI9341map.png)
-
 Como se trata de un solo esclavo (la pantalla LCD) que manejará el periférico, el pin CS se deja permanentemente en nivel bajo; de la misma manera el periférico solo escribirá datos en el esclavo, mas no leerá registros de este, por lo que también el pin RD (que habilita lectura/escritura de los registros del chip) se dejará constantemente en nivel bajo.
 
 Aclarado lo anterior, se muestra como sigue el diagrama de tiempos que debe tener el periférico en su salida para la correcta escritura de datos en los registros del chip
 
-(adjuntar diagrama de tiempos)
+![ILI9341 time diag](docs/MemoryMap/LM32/ILI9341/Timed_lcd.png)
+
 
 Tener en cuenta los tiempos mínimos y máximos establecidos en la hoja de datos del chip ILI9341.
 
@@ -66,13 +65,13 @@ El módulo está diseñado con la herramienta LiteX mediante el uso del submódu
 
 El mapa de memoria se relaciona a continuación.
 
-(mapa de memoria :v)
+![ILI9341 memory map](docs/MemoryMap/LM32/ILI9341/ILI9341_map.png)
 
 Las señales de control START y BUSY respectivamente da inicio al ciclo de escritura y asegura que no se realice un ciclo mientras se est realizando otro en ese momento. Para efectos de generalidad, se deja como registro el valor que se escribe en el pin CS, para casos en los que se necesite manejar más de una pantalla. Queda pendiente realizar la generalidad para el caso en que se necesite leer datos de los registros del chip.
 
-(diagrama de estados del periférico)
+![ILI9341 FSM ](docs/MemoryMap/LM32/ILI9341/FSM_lcd.png)
 
-(diagrama de tiempo simulado)
+![ILI9341 sim ](docs/MemoryMap/LM32/ILI9341/timediag_sim.png)
 
 :+1: Inicio a construir la plataforma entre SD Software y Hardware :shipit:
 
