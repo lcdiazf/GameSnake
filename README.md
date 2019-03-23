@@ -33,6 +33,9 @@ GameSnake cuenta con las siguientes especificaciones
 
 
 ## Hardware
+
+### LCD Paralelo
+
 El perifrico diseñado enteramente en este proyecto fue un controlador del chip de la pantalla ILI9341. Para realizar este diseño se tuvieron en cuenta dos cosas
 
 * Registros de control y datos de comandos del chip ILI9341.
@@ -73,6 +76,19 @@ Las señales de control START y BUSY respectivamente da inicio al ciclo de escri
 
 ![ILI9341 sim ](docs/MemoryMap/LM32/ILI9341/timediag_sim.png)
 
+### Botones
+
+Se realiza un módulo en el que se implementan los botones como entradas con interrupciones.
+
+
+![Button module ](docs/MemoryMap/LM32/GPIO_intr/button_module.png)
+
+EventManager() es el administrador de eventos dado por LiteX. Con este módulo se manejan las interrupciones.
+Se configura la interrupción para ser activada mediante flanco negativo; pero se conecta directamente a los disparadores las señales negadas puesto que los botones son normalmente abiertos.
+
+
+![Button module ](docs/MemoryMap/LM32/GPIO_intr/GPI_map.png)
+
 :+1: Inicio a construir la plataforma entre SD Software y Hardware :shipit:
 
 This site was built using [enjoy-digital pages](https://github.com/enjoy-digital/fpga_101/).
@@ -80,6 +96,8 @@ This site was built using [enjoy-digital pages](https://github.com/enjoy-digital
 This site was built using [GameGirl Pages](https://github.com/luisajojoa/GameGirl).
 
 This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.html).
+
+@seccortessa :+1: Poner descripcion de la SD hecho en hardware ::v:
 
 ## Software
 
