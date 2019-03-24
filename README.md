@@ -99,6 +99,11 @@ This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.ht
 
 @seccortessa :+1: Poner descripcion de la SD hecho en hardware ::v:
 
+El mapa de memoria general del SoC es el siguiente
+
+![Mem map ](docs/MemoryMap/LM32/memory_gen.png.png)
+
+
 ## Software
 
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
