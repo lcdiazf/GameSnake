@@ -9,7 +9,7 @@ This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.ht
 # GameSnake
 Classic snake game
 
-### Contributors
+## Contributors
 
 - Luis Carlos Díaz Fajardo
 
@@ -20,7 +20,11 @@ Classic snake game
 @sccortessa :+1: This is my emoji ::v:
 
 ## El proyecto
-El GameSnake es una consola de un videojuego pensada como proyecto final de la asignatura Electrónica Digital II. Con un diseño gráfico basado en la consola Nintengo GameBoy,el proyecto consta de un prototipo de consola en el que puede jugar el famoso videojuego del celular Nokia 1100 Snake. Los datos gráficos del videojuego que se denominarán Tiles son leídos directamente desde una tarjeta SD de 2Gb conectada al dispositivo. El entorno gráfico escogido para el videojuego fue un fondo de color verde y obstáculos, entorno de puntaje y la serpiente de colores a base de escalas de grises. Cuenta con cinco botones; cuatro de estos son las direcciones del Snake y el último es para pausar el videojuego o para reiniciarlo en caso de pérdida.
+El GameSnake es una consola de un videojuego pensada como proyecto final de la asignatura Electrónica Digital II. Con un diseño gráfico basado en la consola Nintengo GameGirl, el proyecto consta de un prototipo de consola en el que puede jugar el famoso videojuego del celular Nokia 1100 Snake. Los datos gráficos del videojuego que se denominarán Tiles son leídos directamente desde una tarjeta SD de 2Gb conectada al dispositivo. El entorno gráfico escogido para el videojuego fue un fondo de color verde y obstáculos, entorno de puntaje y la serpiente de colores a base de escalas de grises. Cuenta con cinco botones; cuatro de estos son las direcciones del Snake y el último es para pausar el videojuego o para reiniciarlo en caso de pérdida.
+
+## LatticeMicroController 32
+
+### LM32
 
 A nivel técnico el proyecto se compone de una implementación de System On Chip (SoC) con el procesador SoftCore LatticeMicco32 (LM32) y los correspondientes periféricos, la comunicación entre el procesador y los periféricos es mediante la implementación del bus Wishbone.
 
@@ -28,7 +32,7 @@ La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo
 
 ![GameSnake SOC](docs/MemoryMap/LM32/SOC.png)
 
-## Especificaciones
+### Especificaciones
 GameSnake cuenta con las siguientes especificaciones 
 
 * Pantalla a color RGB LCD de resolución 240x320. Se utilizaron solamente 4 colores diferentes y la resolución final del videojugego fue de 240x240.
@@ -84,6 +88,8 @@ Las señales de control START y BUSY respectivamente da inicio al ciclo de escri
 
 ![ILI9341 sim ](docs/MemoryMap/LM32/ILI9341/timediag_sim.png)
 
+## Buttons
+
 ### Botones
 
 Se realiza un módulo en el que se implementan los botones como entradas con interrupciones.
@@ -107,9 +113,16 @@ El mapa de memoria general del SoC es el siguiente
 ## Software
 
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
+
 * Software périfericos
+* Firmware snake
+
+### Software périfericos
 
 ## Firmware
+
+### Firmware Snake
+
 Adelante se descirbe la lógica que controla el juego, además aqeulla que controla la interfaz de usuario y finalmente se describe la función que ubica a la Snake en su posición inicial.
 
 * Control (Control unit)
