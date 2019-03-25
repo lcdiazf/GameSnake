@@ -97,6 +97,8 @@ Se configura la interrupción para ser activada mediante flanco negativo; pero s
 
 ![Button module ](docs/MemoryMap/LM32/GPIO_intr/GPI_map.png)
 
+### SPI SD
+
 
 
 El mapa de memoria general del SoC es el siguiente
