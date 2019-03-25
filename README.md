@@ -1,3 +1,11 @@
+:+1: Inicio a construir la plataforma entre SD Software y Hardware :shipit:
+
+This site was built using [enjoy-digital pages](https://github.com/enjoy-digital/fpga_101/).
+
+This site was built using [GameGirl Pages](https://github.com/luisajojoa/GameGirl).
+
+This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.html).
+
 # GameSnake
 Classic snake game
 
@@ -89,15 +97,7 @@ Se configura la interrupción para ser activada mediante flanco negativo; pero s
 
 ![Button module ](docs/MemoryMap/LM32/GPIO_intr/GPI_map.png)
 
-:+1: Inicio a construir la plataforma entre SD Software y Hardware :shipit:
 
-This site was built using [enjoy-digital pages](https://github.com/enjoy-digital/fpga_101/).
-
-This site was built using [GameGirl Pages](https://github.com/luisajojoa/GameGirl).
-
-This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.html).
-
-@seccortessa :+1: Poner descripcion de la SD hecho en hardware ::v:
 
 El mapa de memoria general del SoC es el siguiente
 
