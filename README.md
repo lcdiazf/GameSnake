@@ -1,11 +1,3 @@
-:+1: Inicio a construir la plataforma entre SD Software y Hardware :shipit:
-
-This site was built using [enjoy-digital pages](https://github.com/enjoy-digital/fpga_101/).
-
-This site was built using [GameGirl Pages](https://github.com/luisajojoa/GameGirl).
-
-This site was built using [elm-chan pages](http://elm-chan.org/docs/mmc/mmc_e.html).
-
 # GameSnake
 Classic snake game
 
