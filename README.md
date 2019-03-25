@@ -26,9 +26,11 @@ El GameSnake es una consola de un videojuego pensada como proyecto final de la a
 
 ### LM32
 
-A nivel técnico el proyecto se compone de una implementación de System On Chip (SoC) con el procesador SoftCore LatticeMicco32 (LM32) y los correspondientes periféricos, la comunicación entre el procesador y los periféricos es mediante la implementación del bus Wishbone.
+A nivel técnico el proyecto se compone de una implementación de un System On Chip (SoC), con el procesador SoftCore LatticeMicco32 (LM32) y los correspondientes periféricos. La comunicación entre el procesador y los periféricos es mediante la implementación del bus Wishbone.
 
-La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo con el maestro. Para controlar la pantalla se diseñó desde hardware el periférico correspondiente. Para la lectura de los datos de la tarjeta SD se realiza la comunicación mediate protocolo SPI. Los botones del videojuego se manejan mendiante entradas de propósito general (GPI) pero a través de interrupciones. Finalmente para la comunicación de la tarjeta se implementa el perifperico UART. 
+La pantalla de visualización es el chip ILI9341 el cual se comunica en paralelo con el maestro. Para controlar la pantalla qué se diseñó desde el hardware, al periférico correspondiente.
+
+Para la lectura de los datos de la tarjeta SD, se realiza la comunicación mediate protocolo SPI, de los botones del videojuego qué se manejan mendiante las entradas de propósito general (GPI), pero a través de interrupciones. De la culabreita para así, finalmente poder comunicaciar la tarjeta qué se implementá en el periférico UART y UART_PHY. 
 
 ![GameSnake SOC](docs/MemoryMap/LM32/SOC.png)
 
@@ -74,7 +76,7 @@ Tener en cuenta los tiempos mínimos y máximos establecidos en la hoja de datos
 
 El periférico diseñado realiza la tarea descrita en el diagrama de tiempos; hace dos tareas diferenciadas:
 * Escribir un dato en la salida a modo de instrucción (seleccionar una dirección de registro, RS nivel bajo).
-* escribir un dato en la salida a modo de argumento (guardar un dato en el registro seleccionado, RS nivel alto).
+* Escribir un dato en la salida a modo de argumento (guardar un dato en el registro seleccionado, RS nivel alto).
 
 El módulo está diseñado con la herramienta LiteX mediante el uso del submódulo FSM (ver documentación de creación de máquinas de estado finitas en litex).
 
