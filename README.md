@@ -1,16 +1,6 @@
 # GameSnake
 Classic snake game
 
-## Contributors
-
-- Luis Carlos Díaz Fajardo
-
-@lcdiazf :+1: This is my emoji :shipit:
-
-- Sebastian Camilo Cortés Salazar
-
-@sccortessa :+1: This is my emoji ::v:
-
 ## El proyecto
 El GameSnake es una consola de un videojuego pensada como proyecto final de la asignatura Electrónica Digital II. Con un diseño gráfico basado en la consola Nintengo GameGirl, el proyecto consta de un prototipo de consola en el que puede jugar el famoso videojuego del celular Nokia 1100 Snake. Los datos gráficos del videojuego que se denominarán Tiles son leídos directamente desde una tarjeta SD de 2Gb conectada al dispositivo. El entorno gráfico escogido para el videojuego fue un fondo de color verde y obstáculos, entorno de puntaje y la serpiente de colores a base de escalas de grises. Cuenta con cinco botones; cuatro de estos son las direcciones del Snake y el último es para pausar el videojuego o para reiniciarlo en caso de pérdida.
 
@@ -115,6 +105,10 @@ El mapa de memoria general del SoC es el siguiente
 ![Mem map ](docs/MemoryMap/LM32/memory_gen.png.png)
 
 
+===========
+
+///////
+
 ## Software
 
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
@@ -139,3 +133,7 @@ Adelante se descirbe la lógica que controla el juego, además aqeulla que contr
 ### User interface
 
 ### Idle State
+=============
+
+
+///////
