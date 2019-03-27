@@ -112,7 +112,7 @@ El modulo de SPI controla todas los eventos de la SD card; por ejemplo cuando se
 El mapa de memoria general del SoC es el siguiente
 
 
-![Mem map ](docs/MemoryMap/LM32/memory_gen.png.png)
+![SPI map ](docs/HardwareMap/LM32/MicroSD_SPI/SDmap.png)
 
 
 ## Software
