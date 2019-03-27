@@ -102,7 +102,7 @@ Se configura la interrupción para ser activada mediante flanco negativo; pero s
 En este apartado, se comienzá a describir como se separaron 
 
 
-![SPI snake ](docs/HardwareMap/LM32/MicroSD_SPI/SDmap.png)
+![SPI map ](docs/HardwareMap/LM32/MicroSD_SPI/SDmap.png)
 
 SPI() es el administrador de eventos dado por LiteX. Con este módulo...
 
