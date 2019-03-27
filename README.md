@@ -107,8 +107,6 @@ En este apartado, se comienzá a describir como se separaron
 SPI() es el administrador de eventos dado por LiteX. Con este módulo...
 
 
-!.[SPI module ](docs/SoftwareMap/LM32/)
-
 
 El mapa de memoria general del SoC es el siguiente
 
