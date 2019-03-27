@@ -97,7 +97,6 @@ Se configura la interrupción para ser activada mediante flanco negativo; pero s
 
 ![Button module ](docs/MemoryMap/LM32/GPIO_intr/GPI_map.png)
 
-====
 
 ## SPI mode
 
@@ -113,7 +112,6 @@ SPI() es el administrador de eventos dado por LiteX. Con este módulo...
 
 !.[SPI module ](docs/MemoryMap/LM32/GPI/SPI_map.png)
 
-====
 
 El mapa de memoria general del SoC es el siguiente
 
