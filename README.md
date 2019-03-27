@@ -99,36 +99,8 @@ El modulo de SPI controla todas los eventos de la SD card; por ejemplo cuando se
 
 ![SPI map ](docs/HardwareMap/LM32/MicroSD_SPI/SDmap.png)
 
+### Mapa de memoria general del SOC 
+
 El mapa de memoria general del SoC es el siguiente
 
-
 ![Mem map ](docs/MemoryMap/LM32/memory_gen.png.png)
-
-
-===========
-
-## Software
-
-En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
-
-* Software périfericos
-* Firmware snake
-
-### Software périfericos
-
-## Firmware
-
-### Firmware Snake
-
-Adelante se descirbe la lógica que controla el juego, además aqeulla que controla la interfaz de usuario y finalmente se describe la función que ubica a la Snake en su posición inicial.
-
-* Control (Control unit)
-* UI (User interface)
-* Idle (Initial state)
-
-### Control
-
-### User interface
-
-### Idle State
-=============
