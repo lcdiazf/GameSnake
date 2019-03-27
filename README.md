@@ -82,7 +82,6 @@ Las señales de control START y BUSY respectivamente da inicio al ciclo de escri
 
 ![ILI9341 sim ](docs/MemoryMap/LM32/ILI9341/timediag_sim.png)
 
-## Buttons
 
 ### Botones
 
@@ -98,8 +97,6 @@ Se configura la interrupción para ser activada mediante flanco negativo; pero s
 ![Button module ](docs/MemoryMap/LM32/GPIO_intr/GPI_map.png)
 
 ====
-
-## SPI mode
 
 ### SPI
 
