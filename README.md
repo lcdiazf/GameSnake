@@ -101,18 +101,18 @@ Se configura la interrupción para ser activada mediante flanco negativo; pero s
 
 En este apartado, se comienzá a describir como se separaron 
 
-![SPI module ](docs/SoftwareMap/TilesMap/SnakeData.png)
+![SPI map ](docs/SoftwareMap/TilesMap/Tiles.png)
 
 
 SPI() es el administrador de eventos dado por LiteX. Este modulo se manejan todas las interrupiones.
 El modulo de SPI controla todas los eventos de la SD card; por ejemplo cuando se desconecta la memoria se debe lanzar un error, qué al ser reconectada debaría reiniciar el juego. 
 
-![SPI map ](docs/SoftwareMap/TilesMap/Tiles.png)
+![SPI map ](docs/HardwareMap/LM32/MicroSD_SPI/SDmap.png)
 
 El mapa de memoria general del SoC es el siguiente
 
 
-![SPI map ](docs/HardwareMap/LM32/MicroSD_SPI/SDmap.png)
+![Mem map ](docs/MemoryMap/LM32/memory_gen.png.png)
 
 
 ## Software
