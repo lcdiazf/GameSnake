@@ -107,8 +107,6 @@ El mapa de memoria general del SoC es el siguiente
 
 ===========
 
-///////
-
 ## Software
 
 En esta sección se describe el funcionamiento del firmware que controla los periféricos en hardware:
@@ -134,6 +132,3 @@ Adelante se descirbe la lógica que controla el juego, además aqeulla que contr
 
 ### Idle State
 =============
-
-
-///////
